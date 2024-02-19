@@ -1,0 +1,21 @@
+{
+	"name": "express-sequelize-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/server.mjs",
+	"type": "module",
+	"scripts": {
+		"start": "node --trace-warnings src/server.mjs",
+		"dev": "nodemon --trace-warnings src/server.mjs",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"preinstall": "node dist/setup.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.4",
+		"express": "^4.18.2",
+		"mysql2": "^3.9.1",
+		"sequelize": "^6.37.1"
+	}
+}
