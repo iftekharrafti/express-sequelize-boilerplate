@@ -7,8 +7,7 @@
 	"scripts": {
 		"start": "node --trace-warnings src/server.mjs",
 		"dev": "nodemon --trace-warnings src/server.mjs",
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"preinstall": "node dist/setup.js"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
 	"license": "ISC",
